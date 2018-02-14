@@ -1,56 +1,54 @@
 html{
-	background-color: #E6E6E6;
+	background: #1a2a6c;
+	background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
 }
 *{
 	margin: 0;
 	padding: 0;
 }
-a{
-	text-decoration: none;
-}
-/* Topnav start */
-.topnav{
-	height: 7.5vh;
-	width: 100vw;
-	background-color: #C91C1C;
-}
-.nomprenom{
-	font-family: 'Noto Sans';
-	font-size: 1.5vw;
-	height: 7.5vh;
-	width: 15vw;
-	background-color: #A60B0B;
-	color: white;
-	text-align: center;
-	line-height:7.5vh;
-}
-h1{
-	font-family: 'Noto Sans';
-	font-size: 4em;
-	color: black;
-	text-align: center;
-}
-/* Topnav end */
 /* Menu start */
 .menu{
-	background-color: white;
-	width: 75vw;
-	height: 160px;
-	border-radius: 10px;
-	margin-left: 12.5vw;
-	margin-top: 5vh;
+	box-sizing: content-box;
+	margin-left: 25vw;
+	margin-top: 12.5vh;
+	height: 75vh;
+	width: 50vw;
 }
-.menu2{
+.menu h1{
+	font-family: 'Encode Sans', sans-serif;
+	font-size: 4em;
+	color: white;
+	font-weight: lighter;
+}
+.menu h2{
+	font-family: 'Encode Sans', sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+.menu a{
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 15vh;
+}
+.titre{
 	text-align: center;
-	margin-top: 25px;
+	height: 100px;
+	width: 250px;
+	line-height: 15vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10vh;
+   	border-bottom: 2px solid white;
 }
-.menu2 a{
-	margin-left: 1vw;
-	margin-right: 1vw;
-	font-family: 'Noto Sans';
-	font-size: 1.1em;
-	color: black;
+.onglets{
+	display: inline-flex;
+	height: 15vh;
+	width: 24.5vw;
+	background: none;
 }
 
+/* Menu end */
+/* Menu start */
 
 /* Menu end */
