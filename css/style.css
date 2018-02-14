@@ -1,0 +1,27 @@
+html{
+	background-color: #E6E6E6;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/* Topnav start */
+.topnav{
+	height: 7.5vh;
+	width: 100vw;
+	background-color: #C91C1C;
+}
+.nomprenom{
+	font-family: 'Noto Sans';
+	font-size: 1.5em;
+	height: 7.5vh;
+	width: 15vw;
+	background-color: #A60B0B;
+	color: white;
+	text-align: center;
+	line-height:7.5vh;
+}
+
+
+
+/* Topnav end */
