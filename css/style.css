@@ -1,9 +1,12 @@
 html{
 	background-color: #E6E6E6;
 }
-body{
+*{
 	margin: 0;
 	padding: 0;
+}
+a{
+	text-decoration: none;
 }
 /* Topnav start */
 .topnav{
@@ -13,7 +16,7 @@ body{
 }
 .nomprenom{
 	font-family: 'Noto Sans';
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	height: 7.5vh;
 	width: 15vw;
 	background-color: #A60B0B;
@@ -21,7 +24,33 @@ body{
 	text-align: center;
 	line-height:7.5vh;
 }
-
-
-
+h1{
+	font-family: 'Noto Sans';
+	font-size: 4em;
+	color: black;
+	text-align: center;
+}
 /* Topnav end */
+/* Menu start */
+.menu{
+	background-color: white;
+	width: 75vw;
+	height: 160px;
+	border-radius: 10px;
+	margin-left: 12.5vw;
+	margin-top: 5vh;
+}
+.menu2{
+	text-align: center;
+	margin-top: 25px;
+}
+.menu2 a{
+	margin-left: 1vw;
+	margin-right: 1vw;
+	font-family: 'Noto Sans';
+	font-size: 1.1em;
+	color: black;
+}
+
+
+/* Menu end */
