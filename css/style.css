@@ -1,54 +1,49 @@
 html{
-	background: #1a2a6c;
-	background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+	background: #b21f1f;
+	background: linear-gradient(to right, #660066, #b21f1f, #fdbb2d);
 }
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-/* Menu start */
-.menu{
-	box-sizing: content-box;
-	margin-left: 25vw;
-	margin-top: 12.5vh;
-	height: 75vh;
-	width: 50vw;
+.backscreen{
+	background: #b21f1f;
+	background: linear-gradient(to right, #660066, #b21f1f, #fdbb2d);
+	height: 100%;
 }
-.menu h1{
-	font-family: 'Encode Sans', sans-serif;
-	font-size: 4em;
-	color: white;
-	font-weight: lighter;
+.menu1{
+	display: flex;
+	background:none;
+	margin-top: 20vh;
+	height: 60vh;
+	border-width: 9px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
 }
-.menu h2{
-	font-family: 'Encode Sans', sans-serif;
-	font-size: 1.5em;
-	color: white;
+.menu2{
+	height: 97%;
+	width: 98%;
+	margin:auto;
+	border: solid white 3px;
 }
-.menu a{
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 15vh;
-}
-.titre{
+.menu3{
 	text-align: center;
-	height: 100px;
-	width: 250px;
-	line-height: 15vh;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10vh;
-   	border-bottom: 2px solid white;
 }
-.onglets{
-	display: inline-flex;
-	height: 15vh;
-	width: 24.5vw;
-	background: none;
+.menu4{
+	height: 20px;
+	background: blue;
 }
-
-/* Menu end */
-/* Menu start */
-
-/* Menu end */
+.menu5{
+	height: 20px;
+	background: blue;
+}
+.menu6{
+	height: 20px;
+	background: blue;
+}
+.menu7{
+	height: 20px;
+	background: blue;
+}
